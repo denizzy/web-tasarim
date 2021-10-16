@@ -137,6 +137,15 @@ hr {
 
 /* Haftanın Kitapları */
 
+.siyah {
+  color: #000 !important;
+  border-bottom: 1px solid #000 !important;
+}
+.beyaz {
+  color: #fff !important;
+  border-bottom: 1px solid #fff !important;
+}
+
 #haftanınkitapları {
   margin-top: 2rem;
 }
