@@ -98,3 +98,19 @@ p {
   margin-bottom: 5rem;
   box-shadow: 0px 0px 20px #fff;
 }
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, .5);
+}
+
+.footer a {
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.instagram-a {
+  margin-left: 0 !important;
+}
