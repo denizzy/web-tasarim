@@ -5,3 +5,47 @@ body {
 .masthead {
   margin-bottom: 5rem !important;
 }
+
+/* Carousel */
+
+#myCarousel {
+  border-radius: 40rem;
+  width: 35rem;
+  box-shadow: 0px 0px 10px #fff;
+}
+
+#myCarousel img {
+  border-radius: 40rem;
+}
+
+#myCarousel h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#myCarousel p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+/* Marketing */
+
+.avatar-1, .avatar-2, .avatar-3 {
+  width: 250px;
+  height: 250px;
+  border-radius: 10rem;
+}
+
+.uclu h2 {
+  margin-top: 2rem;
+}
+
+/* Avatar Border Shadow */
+
+.avatar-1, .avatar-2, .avatar-3 {
+  box-shadow: 0px 0px 10px #fff;
+}

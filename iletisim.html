@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.84.0">
+  <title>Cover Template · Bootstrap v5.0</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://thumbs.dreamstime.com/b/letter-d-logo-icon-design-isolated-dark-background-letter-d-logo-icon-design-isolated-dark-background-simple-vector-logo-193922091.jpg" sizes="16x16">
+
+  <!-- Fontawesome Script -->
+  <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+
+  <!-- CSS only -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+  <!-- Custom styles for this template -->
+  <link href="cover.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="iletisim.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="iletisim.css">
+</head>
+
+<body class="d-flex text-center text-white">
+
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="masthead mb-auto mt-4 baslik">
+      <div class="inner">
+        <h3 class="masthead-brand"><i class="fab fa-slack"></i> HİT İÖ Web Çalışması</h3>
+        <nav class="nav nav-masthead justify-content-center">
+          <a class="nav-link" href="index.html">Anasayfa</a>
+          <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+          <a class="nav-link active" href="iletisim.html">İletişim</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-md-12">
+            <div class="wrapper">
+              <div class="row no-gutters">
+                <div class="col-md-7 d-flex align-items-stretch get-in-touch-wrapper">
+                  <div class="contact-wrap w-100 p-3 bg-white text-left get-in-touch-div">
+                    <h3 class="mb-4 iletisim-formu">İletişim Formu</h3>
+                    <!-- <div id="form-message-warning" class="mb-4"></div>
+                    <div id="form-message-success" class="mb-4">
+                      Your message was sent, thank you!
+                    </div> -->
+                    <form method="POST" id="contactForm" name="contactForm">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="İsim">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Konu">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea name="message" class="form-control" id="message" cols="30" rows="7" placeholder="Mesaj"></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input type="submit" value="Gönder" class="btn btn-primary">
+                            <div class="submitting"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-5 d-flex align-items-stretch contact-us-div-wrapper">
+                  <div class="info-wrap bg-primary w-100 p-lg-5 p-4 text-left contact-us-div">
+                    <h3 class="mb-4 mt-md-4 iletisim-formu">Bilgiler</h3>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div class="icon d-flex align-items-center justify-content-center marker-div">
+                        <span class="fa fa-map-marker harita-span"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p><span>Adres:</span> <a href="#google-io">İnönü Üniversitesi Merkez Kampüsü (Elazığ Yolu 15.km) Pk:44280 Battalgazi/Malatya</a></p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-phone"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p><span>Telefon:</span> 1111-111-11-11</p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-paper-plane"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p><span>Email:</span> test@gmail.com</p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-globe"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p><span>Website:</span> <a href="http://www.inonu.edu.tr/">http://www.inonu.edu.tr/</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="google-maps-wrapper">
+      <div id="google-io" class="container d-flex justify-content-center">
+        <div class="border google-maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6259.323261622474!2d38.43435344256559!3d38.33366581000555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4076384f6c0458cd%3A0x547654849e037a55!2zUmVrdMO2cmzDvGsgxLBkYXJpIMSwxZ9sZXI!5e0!3m2!1str!2str!4v1634392954956!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="mt-auto text-white-50">
+      <p></p>
+    </footer>
+  </div>
+
+
+
+</body>
+
+</html>

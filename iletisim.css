@@ -1,0 +1,100 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #212529;
+}
+
+p {
+  margin: 16px 0;
+}
+
+.wrapper {
+  box-shadow: 0px 0px 10px #fff;
+}
+
+.cover-container {
+  max-width: 100%;
+}
+
+.baslik {
+  max-width: 50em;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5rem !important;
+}
+/* Get in touch */
+
+.get-in-touch-wrapper {
+  color: #000;
+}
+
+.get-in-touch-div {
+  padding: 3rem 2rem !important;
+  text-shadow: none;
+  border-radius: 5px;
+}
+/* Contact us */
+
+.contact-us-div-wrapper {
+  margin-top: -1.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.contact-us-div {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #fff;
+}
+
+/* İnfo Wrap */
+
+.info-wrap .dbox {
+  margin-bottom: 25px;
+}
+
+.info-wrap .dbox .icon {
+  background: rgba(255, 255, 255, 0.1);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Marker Div */
+
+.marker-div {
+  padding-right: 50px;
+}
+
+.harita-span {
+  padding-left: 50px;
+}
+
+/* Website-Div */
+
+.contact-us-div a {
+  color: #fff;
+}
+
+.contact-us-div a:hover {
+  color: #000;
+}
+
+/* İletişim Formu */
+
+.iletisim-formu {
+  text-align: center;
+}
+
+/* Google Maps */
+
+.google-maps-wrapper {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.google-maps {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  box-shadow: 0px 0px 20px #fff;
+}
