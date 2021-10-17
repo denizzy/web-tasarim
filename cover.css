@@ -115,8 +115,8 @@ body {
 }
 
 hr {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   height: 2px !important;
 
 }
@@ -236,9 +236,11 @@ margin-top: 3rem;
 /* Footer */
 
 footer .inner {
-  margin-top: 15rem;
+  margin-top: 5rem;
   font-size: 1.2rem;
 }
+
+
 
 .mastfoot {
   color: rgba(255, 255, 255, .5);
