@@ -4,10 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.84.0">
-  <title>Cover Template · Bootstrap v5.0</title>
+  <meta name="description" content="İletişim">
+  <title>İletişim</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
 
@@ -55,34 +53,35 @@
                 <div class="col-md-7 d-flex align-items-stretch get-in-touch-wrapper">
                   <div class="contact-wrap w-100 p-3 bg-white text-left get-in-touch-div">
                     <h3 class="mb-4 iletisim-formu">İletişim Formu</h3>
-                    <!-- <div id="form-message-warning" class="mb-4"></div>
-                    <div id="form-message-success" class="mb-4">
-                      Your message was sent, thank you!
+                    <!-- <div id="form-message-warning text-center" class="mb-4"></div> -->
+                    <!-- <div id="form-message-success" class="mb-4 mesaj">
+                      <p>Your message was sent, thank you!</p>
                     </div> -->
-                    <form method="POST" id="contactForm" name="contactForm">
+                    <form method="POST" id="contactForm" name="contactForm" action="https://formsubmit.co/dy865933@gmail.com">
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group">
-                            <input type="text" class="form-control" name="name" id="name" placeholder="İsim">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="İsim" required>
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                           </div>
                         </div>
                         <div class="col-md-12">
                           <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Konu">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Konu" required>
                           </div>
                         </div>
                         <div class="col-md-12">
                           <div class="form-group">
-                            <textarea name="message" class="form-control" id="message" cols="30" rows="7" placeholder="Mesaj"></textarea>
+                            <textarea name="message" class="form-control" id="message" cols="30" rows="7" placeholder="Mesaj"></textarea required>
                           </div>
                         </div>
                         <div class="col-md-12">
                           <div class="form-group">
+                            <input type="hidden" name="_next" value="https://thawing-citadel-85210.herokuapp.com/succsess.html">
                             <input type="submit" value="Gönder" class="btn btn-primary">
                             <div class="submitting"></div>
                           </div>
@@ -155,6 +154,7 @@
   </div>
 
 
+  <script src="script.js" charset="utf-8"></script>
 
 </body>
 

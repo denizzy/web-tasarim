@@ -113,3 +113,14 @@ $(".kart-10").hover(function(){
   $(".kart-10 > .kart-govde-10 > .item").addClass("beyaz");
 
 });
+
+
+// İLETİŞİM SAYFASI SUBMIT VALIDATION
+
+// document.getElementById("#contactForm").addEventListener("submit", function(e){
+//     if(!isValid){
+//         e.preventDefault();    //stop form from submitting
+//     }
+//   	//do whatever an submit the form
+//     $(".mesaj").removeClass("mesaj");
+// });

@@ -86,6 +86,10 @@ p {
   text-align: center;
 }
 
+.mesaj {
+  visibility: hidden !important;
+}
+
 /* Google Maps */
 
 .google-maps-wrapper {
