@@ -32,6 +32,40 @@ body {
   margin: auto;
 }
 
+/* Three columns of text below the carousel */
+
+.hakkimizda-border-shadow {
+  box-shadow: 0px 0px 10px #fff;
+}
+
+.hakkimizda-siyah {
+  color: #000 !important;
+
+}
+.hakkimizda-beyaz {
+  color: #fff !important;
+}
+
+.uclu {
+  margin-bottom: 5rem;
+}
+
+/* Features */
+
+.featurette-divider {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ozellik-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+}
+
+
+
+
 /* Marketing */
 
 .avatar-1, .avatar-2, .avatar-3 {
@@ -51,6 +85,10 @@ body {
 }
 
 /* Footer */
+
+.hakkimizda-footer {
+  margin-top: 5rem;
+}
 
 .footer {
   text-align: center;

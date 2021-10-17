@@ -109,8 +109,43 @@ $(".kart-10").hover(function(){
   $(".kart-10 > .kart-govde-10 > .item").removeClass("beyaz");
   }, function(){
   $(".kart-govde-10").css("background-color", "");
-  $(".kart-10 > kart-gövde-10 > .item").removeClass("siyah");
+  $(".kart-10 > kart-govde-10 > .item").removeClass("siyah");
   $(".kart-10 > .kart-govde-10 > .item").addClass("beyaz");
+
+});
+
+// HAKKIMIZDA SAYFASI
+
+$(".kart-11").hover(function(){
+  $(".kart-11").css("background-color", "white").addClass("hakkimizda-border-shadow");
+  $(".kart-11 > .kart-govde-11").addClass("hakkimizda-siyah");
+  $(".kart-11 > .kart-govde-11").removeClass("hakkimizda-beyaz");
+  }, function(){
+  $(".kart-11").css("background-color", "").removeClass("hakkimizda-border-shadow");
+  $(".kart-11 > kart-govde-11").removeClass("hakkimizda-siyah");
+  $(".kart-11 > .kart-govde-11").addClass("hakkimizda-beyaz");
+
+});
+
+$(".kart-12").hover(function(){
+  $(".kart-12").css("background-color", "white").addClass("hakkimizda-border-shadow");
+  $(".kart-12 > .kart-govde-12").addClass("hakkimizda-siyah");
+  $(".kart-12 > .kart-govde-12").removeClass("hakkimizda-beyaz");
+  }, function(){
+  $(".kart-12").css("background-color", "").removeClass("hakkimizda-border-shadow");
+  $(".kart-12 > kart-govde-12").removeClass("hakkimizda-siyah");
+  $(".kart-12 > .kart-govde-12").addClass("hakkimizda-beyaz");
+
+});
+
+$(".kart-13").hover(function(){
+  $(".kart-13").css("background-color", "white").addClass("hakkimizda-border-shadow");
+  $(".kart-13 > .kart-govde-13").addClass("hakkimizda-siyah");
+  $(".kart-13 > .kart-govde-13").removeClass("hakkimizda-beyaz");
+  }, function(){
+  $(".kart-13").css("background-color", "").removeClass("hakkimizda-border-shadow");
+  $(".kart-13 > kart-govde-13").removeClass("hakkimizda-siyah");
+  $(".kart-13 > .kart-govde-13").addClass("hakkimizda-beyaz");
 
 });
 
