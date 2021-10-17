@@ -21,7 +21,9 @@ app.get("/", function (req, res) {
 
 
 
-
+app.get("success.html"), function (req, res) {
+  res.sendFile(__dirname+"/success.html");
+}
 
 
 app.listen(process.env.PORT || 3000, function(req, res) {
