@@ -19,10 +19,8 @@ p {
 }
 
 .baslik {
-  max-width: 50em;
-  margin-left: 25%;
-  margin-right: 25%;
   margin-bottom: 5rem !important;
+  padding: 0 15rem;
 }
 /* Get in touch */
 
