@@ -120,6 +120,11 @@ hr {
   height: 2px !important;
 
 }
+.carousel-caption {
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
 
 /* Duyurular */
 
@@ -152,11 +157,11 @@ margin-top: 3rem;
   border-bottom: 1px solid #fff !important;
 }
 
-.kart-1, .kart-2, .kart-3, .kart-4, .kart-5, .kart-6, .kart-7, .kart-8, .kart-9, .kart-10, .kart-11, .kart-12, .kart-13, .slayt, .sarki {
+.kart-1, .kart-2, .kart-3, .kart-4, .kart-5, .kart-6, .kart-7, .kart-8, .kart-9, .kart-11, .kart-12, .kart-13 {
   transition: transform .2s;
 }
 
-.kart-1:hover, .kart-2:hover, .kart-3:hover, .kart-4:hover, .kart-5:hover, .kart-6:hover, .kart-7:hover, .kart-8:hover, .kart-9:hover, .kart-10:hover, .kart-11:hover, .kart-12:hover, .kart-13:hover, .slayt:hover, .sarki:hover {
+.kart-1:hover, .kart-2:hover, .kart-3:hover, .kart-4:hover, .kart-5:hover, .kart-6:hover, .kart-7:hover, .kart-8:hover, .kart-9:hover, .kart-11:hover, .kart-12:hover, .kart-13:hover {
   transform: scale(1.1);
   z-index: 1;
 }
