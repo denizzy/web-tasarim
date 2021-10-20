@@ -149,6 +149,16 @@ $(".kart-13").hover(function(){
 
 });
 
+// Vizyon - Misyon
+
+// $(".vizyon").hover(function(){
+//   $(".vizyon").css("background-color", "white");
+//   }, function(){
+//   $(".vizyon").css("background-color", "").removeClass("hakkimizda-border-shadow");
+//   $(".vizyon").removeClass("hakkimizda-siyah");
+//   $(".vizyon").addClass("hakkimizda-beyaz");
+//
+// });
 
 // İLETİŞİM SAYFASI SUBMIT VALIDATION
 
