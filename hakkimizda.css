@@ -2,15 +2,25 @@ body {
   padding: 0!important;
 }
 
+
 .masthead {
-  margin-bottom: 5rem !important;
+  margin-bottom: 3rem !important;
 }
 
 .hakkimizda-header-h3 {
   display: flex;
   justify-content: center;
-  margin-bottom: 3rem;
-  margin-top: -2rem;
+  margin: 3rem 15rem;
+}
+
+.b-example-divider {
+  margin-left: -10rem;
+  margin-right: -10rem;
+  width: 116.7% !important;
+}
+
+.divider-2{
+  width: 117.7% !important;
 }
 /* Carousel */
 

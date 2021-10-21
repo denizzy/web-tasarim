@@ -1,0 +1,39 @@
+.slayt {
+  border-radius: 500px;
+  max-width: 28rem;
+  display: -webkit-inline-box;
+}
+
+.slayt-h3 {
+  margin-top: 3rem;
+}
+
+.carousel-inner {
+  border-radius: 500px;
+}
+
+.row-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 15rem;
+}
+
+.avatar-1, .avatar-2, .avatar-3 {
+  border-radius: 300px;
+  box-shadow: 0px 0px 10px #fff;
+}
+
+.ozellik-img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 200px;
+}
+
+.featurette {
+  margin: 3rem 10rem;
+}
+
+.ozellik-img {
+  box-shadow: 0px 0px 10px #fff;
+
+}
