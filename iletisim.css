@@ -6,8 +6,22 @@ body {
   background-color: #212529;
 }
 
-p {
+/* p {
   margin: 16px 0;
+} */
+
+.b-example-divider {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.masthead-alt {
+  margin-top: 3rem !important;
+}
+
+.googlemaps-alt {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .wrapper {
@@ -18,9 +32,10 @@ p {
   max-width: 100%;
 }
 
-.baslik {
-  margin-bottom: 5rem !important;
-}
+/* .baslik {
+  margin-bottom: 3rem !important;
+} */
+
 /* Get in touch */
 
 .get-in-touch-wrapper {
@@ -90,8 +105,7 @@ p {
 /* Google Maps */
 
 .google-maps-wrapper {
-  margin-top: 5rem;
-  margin-bottom: 3rem;
+  margin-top: -5rem;
 }
 
 .google-maps {
@@ -105,6 +119,7 @@ p {
   text-align: center;
   font-size: 1.2rem;
   color: rgba(255, 255, 255, .5);
+  margin-bottom: 3rem;
 }
 
 .footer a {
