@@ -35,3 +35,11 @@
 .vizyon-img, .misyon-img {
   font-size: 5rem;
 }
+
+.masthead-wrap {
+  padding-bottom: 5rem;
+}
+
+body {
+  display: unset;
+}
