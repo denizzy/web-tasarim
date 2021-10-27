@@ -11,6 +11,15 @@ a:hover {
   color: #fff;
 }
 
+/* NAVİGASYON */
+.navigasyon {
+  margin: 1.5rem 0;
+}
+
+.collapse {
+  justify-content: right;
+}
+
 .b-example-divider {
   height: 3rem;
   background-color: rgba(255, 255, 255, .1);
@@ -118,7 +127,10 @@ body {
 /* Caroulsel */
 
 .slayt {
-  margin: 3rem 25rem;
+  max-width: 50rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: -webkit-inline-box;
   box-shadow: 0px 0px 10px #fff;
 }
 
