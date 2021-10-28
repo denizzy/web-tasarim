@@ -41,5 +41,5 @@
 }
 
 body {
-  display: unset;
+  display: flow-root;
 }
