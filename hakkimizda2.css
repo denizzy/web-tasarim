@@ -24,7 +24,7 @@
 
 .avatar-1, .avatar-2, .avatar-3 {
   border-radius: 300px;
-  box-shadow: 0px 0px 10px #fff;
+  box-shadow: 0 0 10px #fff;
 }
 
 .ozellik-img {
@@ -38,7 +38,7 @@
 }
 
 .ozellik-img {
-  box-shadow: 0px 0px 10px #fff;
+  box-shadow: 0 0 10px #fff;
 
 }
 
@@ -46,6 +46,10 @@
   padding-top: 5rem;
 }
 
+.kart-11, .kart-12, .kart-13 {
+  border-radius: 10px;
+}
+
 .hakkimizda-border-shadow {
-  box-shadow: 0px 0px 10px #fff;
+  box-shadow: 0 0 10px #fff;
 }
